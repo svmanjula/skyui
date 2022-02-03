@@ -1,0 +1,11 @@
+:root{
+    --primary-color:rgb(74, 74, 177) ;
+    --secondary-color:rgb(202, 202, 252);
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
