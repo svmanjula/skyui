@@ -50,7 +50,40 @@ h3{
     color: white;
 }
 
+.outline-primary{
+    color:var(--primary-color);
 
+}
+.outline-primary:hover{
+    background-color:var(--primary-color);
+    color: white;
 
+}
 
+.outline-error{
+    color: rgb(231, 30, 30);
+}
+
+.outline-error:hover{
+    background-color: rgb(231, 30, 30);
+    color: white;
+}
+
+.outline-warning{
+    color:rgb(248, 169, 23);
+}
+
+.outline-warning:hover{
+    background-color:rgb(248, 169, 23);
+    color: white;
+}
+
+.outline-success{
+    color: green;
+}
+
+.outline-success:hover{
+    background-color: green;
+    color: white;
+}
 
