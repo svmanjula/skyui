@@ -1,16 +1,21 @@
-@import url(components.css);
+@import url(/components.css);
 
-.btn-container{
+#btn{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
     margin: auto;
     flex-wrap: wrap;
+    gap: 25px;
     
 }
 
-h3{
+.buttonvarienttitle{
+    color: var(--primary-color);
+}
+
+.documentationcontentheader{
     color: var(--primary-color);
 }
 
@@ -18,72 +23,158 @@ h3{
     height: 35px;
     width: 100px;
     font-weight: bolder;
+    color: var(--off-white-);
 
 }
 
 
-.container{
+.buttonvarientcontainer{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    border-radius: 10px;
+    gap: 25px;
     justify-content: center;
-    padding: 1rem;
-    background-color:var(--background-color);
+    padding: 25px;
+    border: 2px solid var(--secondary-color);
     width: 90%;
+    background-color: var(--secondary-color);
+
+}
+
+.button-default{
+    background-color: var(--default-color);
+}
+
+.button-default:hover{
+    background-color: var(--off-white-); 
+    color: var(--default-color);
 
 }
 
 .button-primary{
-    background: rgb(39, 39, 97);
-    color: white;
+    background: var(--primary-color);
 }
 
 .button-primary:hover{
-    background-color:white;
-    color:rgb(39, 39, 97);
+    color:var(--primary-color);
+    background-color: var(--off-white-);
+}
+
+.button-secondary{
+    color: var(--primary-color);
+}
+
+.button-secondary:hover{
+    color: var(--off-white-);
+     background-color: var(--primary-color);
 }
 
 
-.button-secondary:hover{
-    background-color: black;
-    color: white;
+.button-error{
+    background-color: var(--error-color);
+}
+
+.button-error:hover{
+    color:var(--error-color);
+    background-color: var(--off-white-);
+}
+
+.button-warning{
+    background-color: var(--warning-color);
+}
+
+.button-warning:hover{
+    color: var(--warning-color);
+    background-color: var(--off-white-);
+}
+
+.button-success{
+    background-color: var(--success-color);
+}
+
+.button-success:hover{
+    color: var(--success-color);
+    background-color: var(--off-white-);
+}
+
+.outline-default{
+    color: var(--default-color);
+    border-color: var(--default-color);
+}
+
+.outline-default:hover{
+    background-color: var(--default-color);
+    color: var(--off-white-);
+
 }
 
 .outline-primary{
     color:var(--primary-color);
+    border-color: var(--primary-color);
 
 }
+
 .outline-primary:hover{
     background-color:var(--primary-color);
-    color: white;
+    color:var(--off-white-);
 
 }
 
+
 .outline-error{
-    color: rgb(231, 30, 30);
+    color: var(--error-color);
+    border-color: var(--error-color);
 }
 
 .outline-error:hover{
-    background-color: rgb(231, 30, 30);
-    color: white;
+    background-color: var(--error-color);
+    color:var(--off-white-);
 }
 
 .outline-warning{
-    color:rgb(248, 169, 23);
+    color:var(--warning-color);
+    border-color: var(--warning-color);
 }
 
 .outline-warning:hover{
-    background-color:rgb(248, 169, 23);
-    color: white;
+    background-color:var(--warning-color);
+    color: var(--off-white-);
 }
 
 .outline-success{
-    color: green;
+    color:var(--success-color);
+    border-color: var(--success-color);
 }
 
 .outline-success:hover{
-    background-color: green;
-    color: white;
+    background-color:var(--success-color);
+    color: var(--off-white-);
+}
+
+.button-link{
+    background-color: var(--default-color);
+}
+
+.button-link:hover{
+    color: var(--default-color);
+    background-color: var(--off-white-);
+}
+
+.button-icon{
+    background-color: var(--default-color);
+}
+
+.button-icon:hover{
+    color: var(--default-color);
+    background-color: var(--off-white-);  
+}
+
+.button-floating{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border: 2px solid var(--default-color);
+    background-color: var(--default-color);
+
 }
 

@@ -1,0 +1,79 @@
+@import url(/components.css);
+
+.badge{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.badgevarientcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border:2px solid var(--secondary-color);
+    height: 200px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.status{
+    border-radius: 50%;
+    border:2px solid black;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    bottom:-22px;
+    left:-27px;
+}
+
+.status-online{
+    background-color: var(--success-color);
+}
+
+.status-offline{
+    background-color: var(--dnd-color);
+}
+
+.status-dnd{
+    background-color: var(--error-color);
+}
+.number{
+    position: relative;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    height: 10px;
+    width: 12px;
+    font-size: smaller;
+    text-align: center;
+    top:-15px;
+    left:-12px;
+    background-color: black;
+    color: var(--off-white-);
+
+}
+
+.numbadge{
+    font-size: 25px;
+}
+
+
+#component-badges{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    gap:25px;
+}
+
+.documentationcontentheader{
+    color: var(--primary-color);
+}
+
+.badgevarienttitle{
+    color: var(--primary-color);
+
+}

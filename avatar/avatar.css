@@ -1,0 +1,90 @@
+@import url(/components.css);
+
+.avatarvarientcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid var(--secondary-color);
+    gap: 25px;
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    background-color: var(--secondary-color);
+
+}
+
+.avatarvarienttitle{
+    color: var(--primary-color);
+    margin: 25px;
+}
+
+.documentcontentheader{
+    color: var(--primary-color); 
+    margin: 10px;
+}
+
+.documentcontentpara{
+    padding: 10px;
+}
+
+.avatar{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+
+}
+
+.sm{
+    height: 65px;
+    width:65px;
+
+}
+
+.md{
+    height: 90px;
+    width:90px;
+
+}
+
+.lg{
+    height: 120px;
+    width:120px;
+
+}
+
+.avatar-square{
+    height: 100px;
+    width:100px;
+    border: 2px solid var(--secondary-color);
+}
+
+.sq-sm{
+    height: 65px;
+    width:65px;
+
+}
+
+.sq-md{
+    height: 90px;
+    width:90px;
+
+}
+
+.sq-lg{
+    height: 120px;
+    width:120px;
+
+}
+
+#component-avatar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}

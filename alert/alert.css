@@ -1,0 +1,81 @@
+@import url(/components.css);
+
+.alert{
+    border: 2px solid black;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--off-white-);
+    background-color: var(--off-white-);
+}
+
+.alertvarientcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    border: 3px solid var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 700px;
+    background-color: var(--secondary-color);
+
+}
+
+.documentationcontentheader{
+    color: var(--primary-color);
+}
+
+.alertvarienttitle{
+    color: var(--primary-color);
+}
+
+.primary{
+    color: var(--off-white-);
+    background-color: var(--primary-color);
+}
+
+.error{
+    background-color: var(--error-color);
+}
+.warning{
+    background-color: var(--warning-color);
+}
+.success{
+    background-color: var(--success-color);
+}
+
+.primary-outline{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+
+}
+
+.error-outline{
+    color:var(--error-color);
+    border-color: var(--error-color);
+}
+
+.warning-outline{
+    color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+.success-outline{
+    color:var(--success-color);
+    border-color: var(--success-color);
+}
+
+#component-alert{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}

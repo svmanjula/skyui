@@ -35,7 +35,14 @@ header{
     background-color: var(--primary-color);
     height: 2rem;
     color: white;
+
     
+}
+
+.primary-btn a{
+    color: white;
+    text-decoration: none;
+
 }
 
 .subcontainer{
@@ -75,5 +82,9 @@ header{
 #header-title{
     color: white;
     font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: var(--off-white);
 }
 
