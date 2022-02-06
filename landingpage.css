@@ -1,4 +1,4 @@
-@import url(components.css);
+@import url(/components.css);
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 
@@ -9,7 +9,7 @@ header{
     height: 75px;
     align-items: center;
     padding-left: 1rem;
-    color: white;
+    color: var(--off-white-);
 }
 
 
@@ -34,13 +34,13 @@ header{
 .primary-btn{
     background-color: var(--primary-color);
     height: 2rem;
-    color: white;
+    color:var(--off-white-);
 
     
 }
 
 .primary-btn a{
-    color: white;
+    color:var(--off-white-);
     text-decoration: none;
 
 }
@@ -72,10 +72,10 @@ header{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    position: absolute;
+
     width: 100%;
     bottom: 0;
-    color: white;
+    color: var(--off-white-);
 
 }
 
@@ -85,6 +85,6 @@ header{
 }
 a{
     text-decoration: none;
-    color: var(--off-white);
+    color: var(--off-white-);
 }
 
