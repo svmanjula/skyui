@@ -65,14 +65,14 @@ header{
 }
 
 
-.footer-container{
+footer{
     display: flex;
     background-color: var(--primary-color);
     height: 75px;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    position:static;
+    position:absolute;
     bottom: 0;
     width: 100%;
     color: var(--off-white-);
