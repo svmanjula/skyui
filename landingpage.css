@@ -72,9 +72,9 @@ header{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-
-    width: 100%;
+    position:fixed;
     bottom: 0;
+    width: 100%;
     color: var(--off-white-);
 
 }
