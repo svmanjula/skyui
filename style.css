@@ -14,20 +14,37 @@
     /* gap: 30px; */
     /* width: 20%; */
     height: 100vh;
-    padding: 10px;
-    justify-content: space-evenly;
-    background-color: var(--primary-color);
+    padding: 30px;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    box-shadow: 0 4px 4px 0 var(--primary-color);
+
 }
 
-/* .document-content{
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-} */
+.component-varient{
 
-a{
+    color: black;
     text-decoration: none;
-    color: var(--off-white-);
     font-weight: bolder;
-    font-size: medium;
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.component-varient:hover{
+color: var(--secondary-color);
+}
+
+
+
+#header-nav-link-link{
+    color: var(--off-white-);
+    text-decoration: none;
+    
+}
+
+.component-title{
+    font-size: 25px;
+    padding: 30px 0;
+    text-align: center;
 }

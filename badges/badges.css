@@ -4,14 +4,14 @@
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .badgevarientcontainer{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    border:2px solid var(--secondary-color);
+    border:0.5px solid black;
     /* height: 200px; */
     padding: 10px;
     width: 70%;
@@ -21,7 +21,7 @@
 
 .status{
     border-radius: 50%;
-    border:2px solid black;
+    border:1px solid black;
     height: 15px;
     width: 15px;
     position: relative;

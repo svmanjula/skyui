@@ -1,12 +1,14 @@
 :root{
     --primary-color:rgb(74, 74, 177) ;
-    --secondary-color:rgb(47, 47, 99);
+    --secondary-color:rgb(179, 179, 201);
     --off-white-:white;
-    --error-color:rgb(206, 78, 78);
+    --error-color:rgb(221, 70, 70);
     --warning-color:rgb(240, 164, 23);
     --success-color:rgb(58, 151, 58);
-    --dnd-color:rgb(199, 193, 193);
+    --dnd-color:rgb(235, 226, 226);
     --default-color: rgb(3, 3, 58);
+    --shadow-color-:rgb(219, 217, 217);
+
     
     
     
