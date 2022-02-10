@@ -65,7 +65,7 @@
     color: var( --off-white-);
     font-size:larger;
     top:-350px;
-    right: -270px;
+    right: -260px;
 
 }
 
@@ -109,7 +109,7 @@
 }
 
 .horizontal-icons{
-    margin-top: 40px;
+    padding: 20px;
 }
 
 #card-shadow{
