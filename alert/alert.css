@@ -42,7 +42,7 @@
     background-color: var(--primary-color);
 }
 
-.error{
+.err{
     background-color: var(--error-color);
 }
 .warning{

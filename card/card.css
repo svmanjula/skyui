@@ -20,7 +20,7 @@
 }
 
 
-.badge{
+.highlight-badge{
     position: relative;
     color: var( --off-white-);
     background: var(--error-color);
@@ -94,6 +94,7 @@
 #card-horizontalcard{
     display: flex;
     flex-direction: row;
+
 }
 
 #horizontal-cardimg{
@@ -120,7 +121,8 @@
 #cards{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    
-
+    gap: 20px;
+    align-items: center;
+    width: 70%;
+    margin: auto;
 }
