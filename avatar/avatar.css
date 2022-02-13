@@ -1,7 +1,7 @@
 @import url(/components.css);
 
 .avatarvarientcontainer{
-    /* display: flex;
+    /* display: flex
     flex-wrap: wrap; */
     /* border: 0px solid var(--secondary-color); */
     /* gap: 25px; */
@@ -26,9 +26,12 @@
     margin: 10px;
 }
 
-.documentcontentpara{
-    padding: 10px;
+.avatarvarientpara{
+    margin: 10px;
+    text-align: center;
 }
+
+
 
 .avatar{
     height: 100px;
