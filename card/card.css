@@ -126,3 +126,10 @@
     width: 70%;
     margin: auto;
 }
+
+.component-header{
+    color: var(--primary-color);
+}
+.cardvarient-title{
+    color: var(--primary-color);
+}

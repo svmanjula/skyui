@@ -8,6 +8,7 @@
     margin: auto;
     flex-wrap: wrap;
     gap: 25px;
+    padding: 2rem;
     
 }
 
@@ -177,4 +178,8 @@
     background-color: var(--default-color);
 
 }
+.buttonvarientheader{
+    padding: 3rem;
+    }
+    
 

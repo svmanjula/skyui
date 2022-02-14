@@ -8,7 +8,8 @@
     justify-content: space-evenly;
     height: 100vh;
     box-shadow: 0 4px 4px 0 var(--primary-color);
-    position: sticky;
+    position: fixed;
+    padding: 2rem;;
     
 }
 
@@ -22,6 +23,7 @@
 
 .component-varient:hover{
 color: var(--primary-color);
+
 }
 
 
@@ -43,11 +45,25 @@ color: var(--primary-color);
     padding: 20px;
 }
 
-#maindocumentcontainer{
-    display: flex;
+
+
+
+#hero{
+    position: fixed;
+    z-index:99;
+    width: 100%;
+
 }
 
+#documentcontent{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* position: relative; */
+    /* right:-5rem; */
 
+}
 
 
 
