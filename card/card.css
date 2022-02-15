@@ -122,9 +122,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
-    width: 70%;
+    width: 100%;
     margin: auto;
+    padding: 1rem;
 }
 
 .component-header{

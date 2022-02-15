@@ -15,10 +15,8 @@
 #image{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    width: 70%;
-    margin: auto;
+    gap: 1rem;
+    width: 100%;
     padding: 2rem;
 }
 .cardvarient-header{
