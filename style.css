@@ -42,8 +42,9 @@ color: var(--primary-color);
 
 .documentcontent-header{
     text-align:center;
-    margin: 2rem 0;
+    margin: 2rem;
     font-size: 2rem;
+    width: 80vw;
 }
 
 
@@ -52,7 +53,7 @@ color: var(--primary-color);
 #hero{
     position: fixed;
     z-index:99;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -69,7 +70,9 @@ color: var(--primary-color);
 
 #componentsfooter{
     width: 100vw;
-    /* position: fixed; */
+    position: absolute;
+    margin: 1rem 0;
+    
 }
 
 @media only screen 

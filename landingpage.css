@@ -6,19 +6,17 @@ header{
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    /* height: 75px; */
     align-items: center;
-    padding-left: 1rem;
+    justify-content: space-between;
     color: var(--off-white-);
-   
-    
+ 
 }
 
 
 .nav-contents{
     display: flex;
     gap: 2rem;
-    margin: 25px;
+    margin: 2rem;
 }
 
 #container{
@@ -61,8 +59,8 @@ header{
     background-color: rgb(250, 246, 246);
     /* height: 15rem; */
     justify-content: center;
-    margin: 50px;
-    padding: 10px;
+    margin:5rem;
+    padding: 1rem;
     
 }
 
@@ -72,11 +70,10 @@ footer{
     background-color: var(--primary-color);
     /* height: 75px; */
     align-items: center;
-    padding: 25px;
+    padding:1.5rem;
     justify-content: center;
-    gap: 20px;
-    /* position:absolute; */
-    bottom: 0;
+    gap: 1rem;
+    
     width: 100%;
     color: var(--off-white-);
 
@@ -84,8 +81,10 @@ footer{
 
 #header-title{
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-decoration: none;
+    margin: 1rem;
+
 }
 /* /* a{
     text-decoration: none;

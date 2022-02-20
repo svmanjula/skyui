@@ -1,7 +1,7 @@
 @import url(/components.css);
 
 .img{
-    height:20vh;
+    height:200px;
     width: 100%;
     }
 
@@ -61,8 +61,8 @@
     position: relative;
     color: var( --off-white-);
     font-size:larger;
-    top:-360px;
-    right: -170px;
+    top:-370px;
+    right: -220px;
 
 }
 
@@ -74,7 +74,7 @@
     font-weight: bolder;
     position: relative;
     top:-200px;
-    right: -30px;
+    right: -50px;
     font-size:1.3rem;
 }
 
