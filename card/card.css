@@ -61,8 +61,8 @@
     position: relative;
     color: var( --off-white-);
     font-size:larger;
-    top:-350px;
-    right: -220px;
+    top:-360px;
+    right: -170px;
 
 }
 
@@ -74,8 +74,8 @@
     font-weight: bolder;
     position: relative;
     top:-200px;
-    right: -50px;
-    font-size:1.5rem;
+    right: -30px;
+    font-size:1.3rem;
 }
 
 .overlay{
@@ -84,13 +84,14 @@
 }
 
 #card-textonly{
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
     
 }
 
 #card-horizontalcard{
     display: flex;
     flex-direction: row;
+    width: 70vh;
 
 }
 
@@ -129,10 +130,11 @@
 }
 .cardvarient-title{
     color: var(--primary-color);
+    
 }
 
 .cardvarient-titles{
     color: var(--primary-color);
-
+    font-size: 1.3rem;
      
 }

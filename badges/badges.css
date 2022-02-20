@@ -81,5 +81,6 @@
 
 .badgevarienttitle{
     color: var(--primary-color);
+    font-size: 1.3rem;
 
 }
