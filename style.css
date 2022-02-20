@@ -9,7 +9,7 @@
     height: 100vh;
     box-shadow: 0 4px 4px 0 var(--primary-color);
     position: fixed;
-    padding: 2rem;;
+    padding: 2rem;
     
 }
 
@@ -51,7 +51,7 @@ color: var(--primary-color);
 
 
 #hero{
-    position: fixed;
+    position:absolute;
     z-index:99;
     width: 100vw;
 
