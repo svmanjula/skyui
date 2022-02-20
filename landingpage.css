@@ -9,6 +9,8 @@ header{
     align-items: center;
     justify-content: space-between;
     color: var(--off-white-);
+    width: 100vw;
+    height: 8vh;
  
 }
 
@@ -64,26 +66,34 @@ header{
     
 }
 
+.container-title{
+    font-weight: bolder;
+    font-weight: 1.3rem;
+}
+
+.container-discription{
+    font-weight: 0.8rem;
+}
 
 footer{
     display: flex;
     background-color: var(--primary-color);
     /* height: 75px; */
     align-items: center;
-    padding:1.5rem;
+    padding:1rem;
     justify-content: center;
     gap: 1rem;
     
-    width: 100%;
+    width:100vw;
     color: var(--off-white-);
 
 }
 
 #header-title{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    margin: 1rem;
+    margin-left: 1rem;
 
 }
 /* /* a{
