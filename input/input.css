@@ -3,7 +3,7 @@
 #component-input{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1rem;
     width: 100%;
     margin: auto;
     padding: 2rem;
@@ -14,14 +14,14 @@
 .input-group{
     display: flex;
     flex-direction: column;
-    max-width:700px;
+    max-width:500px;
     min-width: 300px;
 
 
 }
 
 input{
-    height: 35px;
+    height:4vh;
     border: 1px solid black;
     
     

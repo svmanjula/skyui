@@ -35,14 +35,14 @@ color: var(--primary-color);
 }
 
 .component-title{
-    font-size: 25px;
     font-weight: bolder;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .documentcontent-header{
-    text-align: center;
-    padding: 20px;
+    text-align:center;
+    padding: 1.5rem;
 }
 
 
@@ -68,7 +68,7 @@ color: var(--primary-color);
 
 #componentsfooter{
     width: 100vw;
-    position: fixed;
+    /* position: fixed; */
 }
 
 @media only screen 

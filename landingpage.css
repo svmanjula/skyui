@@ -75,7 +75,7 @@ footer{
     padding: 25px;
     justify-content: center;
     gap: 20px;
-    position:static;
+    /* position:absolute; */
     bottom: 0;
     width: 100%;
     color: var(--off-white-);
