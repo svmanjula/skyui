@@ -6,39 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inputs</title>
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/landingpage.css">
 
 </head>
 <body>
-    <div id="input">
+    <header id="hero">
+        <div> <a id="header-title" href="/index.html">SKY-UI</a> </div>
+      
+        <div class="nav-contents">
+      
+        <div id="header-nav "><a id="header-nav-link" href="#">Docs</a></div>
+        <div class="github-icon"><i class="fab fa-github"></i>
+            </div>
+        </div>
+      
+       </header>
+    
+       
+      <div id="sidebar">
+    
+        <a class="component-varient" href="/avatar/avatar.html">Avatar</a>
+        <a class="component-varient"  href="/alert/alert.html">Alert</a>
+    <a  class="component-varient" href="/buttons/buttons.html">Button</a>
+        <a class="component-varient" href="/badges/badges.html">Badge</a>
+        <a class="component-varient"  href="/card/card.html">Card</a>
+    
+        <a  class="component-varient"  href="/images/images.html">Image</a>
+        <a  class="component-varient"  href="/input/input.html">Input</a>
+    
+        
+      </div>
 
-    <h2 class="inputvarientheader">INPUT</h2>
+      <div id="main">
+            
 
-    <p class="inputvarientdiscription">User inputs are essential for a site to show the contents to the users.</p>
+        <div id="component-input">
 
-    <h3 class="inputvarienttitle">Primary Input</h3>
+     <h2 class="inputvarientheader">INPUT</h2>
+ 
+     <p class="inputvarientdiscription">User inputs are essential for a site to show the contents to the users.</p>
+     <hr>
+ 
+     <h3 class="inputvarienttitle">Primary Input</h3>
+ 
+     <div class="input-group">
+         <label>username *</label>
+         <input type="text">
+     </div>
+ 
+ 
+ <h3 class="inputvarienttitle">Input with Error Style</h3>
+ 
+ <div class="input-group error">
+     <label>password*</label>
+     <input type="text">
+     <div class="error-message">wrong password. Try again.
+     </div>
+ </div>
+ 
+ <iframe
+   src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EWrong%2520Password.%2520Try%2520again.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+   style="width: 100%; height: 100%;  max-width:900px; border:0; transform: scale(1); overflow:hidden;"
+   sandbox="allow-scripts allow-same-origin">
+ </iframe>
+ 
+        </div>
+     </div>
 
-    <div class="input-group">
-        <label>username *</label>
-        <input type="text">
-    </div>
-
-
-<h3 class="inputvarienttitle">Input with Error Style</h3>
-
-<div class="input-group error">
-    <label>password*</label>
-    <input type="text">
-    <div class="error-message">wrong password. Try again.
-    </div>
-</div>
-
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EWrong%2520Password.%2520Try%2520again.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%;  max-width:900px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-</div>
     
 </body>
 </html>

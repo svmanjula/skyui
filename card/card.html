@@ -8,193 +8,226 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <link rel="stylesheet" href="card.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/landingpage.css">
 </head>
 <body>
 
-    <div class="component" id="cards">
-
-        <h2 class="component-header">CARDS </h2>
-    
-        <p class="discription">A card is a container which includes options for headers and footers, a wide variety of content, background colors, and display action items.  </p>
-    
-        <hr>
-    
-        <h3 class="cardvarient-title">Cards With Badges </h3>
-       
-        <p class="discription">A card with badge higlights the specific card from other cards.</p>
-
-            <div class="cardvarient-container" id="card-badge">
-
-            <img class="img" src="/img/img2.jpg" alt="">
-            <div class="cardvarient-title contex">LAMPAN</div>
-            <div class="cardvarient-subtitle">Rs. 549</div>
-            <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
-
-            <div class="icons">
-                <i class="fa fa-heart icon"></i>
-                <i class="fa fa-share-alt icon"></i>
-                <i class="fa fa-ellipsis-v icon"></i>
-            </div>
-            <span class="highlight-badge">NEW</span>
+  <header id="hero">
+    <div> <a id="header-title" href="/index.html">SKY-UI</a> </div>
+  
+    <div class="nav-contents">
+  
+    <div id="header-nav "><a id="header-nav-link" href="#">Docs</a></div>
+    <div class="github-icon"><i class="fab fa-github"></i>
         </div>
+    </div>
+  
+   </header>
 
-        <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-badge%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520and%2520will%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-  style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+   
+  <div id="sidebar">
 
-<hr>
+    <a class="component-varient" href="/avatar/avatar.html">Avatar</a>
+    <a class="component-varient"  href="/alert/alert.html">Alert</a>
+<a  class="component-varient" href="/buttons/buttons.html">Button</a>
+    <a class="component-varient" href="/badges/badges.html">Badge</a>
+    <a class="component-varient"  href="/card/card.html">Card</a>
 
-<h3 class="cardvarient-title">Cards With Dismiss
-</h3>
-       
-        <p class="discription">Close the shown card using dismiss option on it. Add functionality to the dimiss button on the card.</p>
+    <a  class="component-varient"  href="/images/images.html">Image</a>
+    <a  class="component-varient"  href="/input/input.html">Input</a>
+
     
-<div class="cardvarient-container" id="card-dismiss">
+  </div>
+  <div id="main">
 
-    <img class="img"  src="/img/img2.jpg" alt="">
-    
-    <div class="cardvarient-title">LAMPAN</div>
-    <div class="cardvarient-subtitle">Rs.549
+  <div class="component" id="cards">
 
-    </div>
-    <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
+    <h2 class="component-header">CARDS </h2>
 
-    <div class="icons">
-        <i class="fa fa-heart icon"></i>
-        <i class="fa fa-share-alt icon"></i>
-        <i class="fa fa-ellipsis-v icon"></i>
-    </div>
-    <span class="icon-dismiss">X</i></span>
-</div>
+    <p class="discription">A card is a container which includes options for headers and footers, a wide variety of content, background colors, and display action items.  </p>
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-dismiss%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-dismiss%2522%253EX%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
- <hr>
+    <hr>
 
- <h3 class="cardvarient-title">Cards with Text Overlay</h3>
-       
-        <p class="discription">Overlay the important text on the card to highlight it. </p>
-    
-<div class="cardvarient-container" id= "card-overlay" >
+    <h3 class="cardvarient-titles">Cards With Badges </h3>
+   
+    <p class="discription">A card with badge higlights the specific card from other cards.</p>
 
+        <div class="cardvarient-container" id="card-badge">
 
-    <img class="img overlay"  src="/img/img2.jpg" alt="">
-    
-    <div class="cardvarient-title overlay">LAMPAN</div>
-    <div class="cardvarient-subtitle overlay">Rs.549
+        <img class="img" src="/img/img2.jpg" alt="">
+        <div class="cardvarient-title contex">LAMPAN</div>
+        <div class="cardvarient-subtitle">Rs. 549</div>
+        <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
 
-    </div>
-    <div class="cardvarient-discription overlay"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
-
-    <div class="icons overlay">
-        <i class="fa fa-heart icon"></i>
-        <i class="fa fa-share-alt icon"></i>
-        <i class="fa fa-ellipsis-v icon"></i>
-    </div>
-
-    <div class="overlay-text"> Out Of Stock</div>
-</div>
-
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-overlay%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520and%2520will%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%2520Out%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-<hr>
-
-<h3 class="cardvarient-title">Text only card.</h3>
-       
-  <p class="discription">When we have only text that needs to be shown as card use below simple text only cards. </p>
-    
-  <div class="cardvarient-container" id="card-textonly" >
-
-    <div class="cardvarient-title ">LAMPAN</div>
-    <div class="cardvarient-subtitle ">Rs.549
-
-    </div>
-
-    <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
-
-    <div class="icons">
-        <i class="fa fa-heart icon"></i>
-        <i class="fa fa-share-alt icon"></i>
-        <i class="fa fa-ellipsis-v icon"></i>
-    </div>
-
+        <div class="icons">
+            <i class="fa fa-heart icon"></i>
+            <i class="fa fa-share-alt icon"></i>
+            <i class="fa fa-ellipsis-v icon"></i>
+        </div>
+        <span class="highlight-badge">NEW</span>
     </div>
 
     <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-textonly%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520make%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-badge%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520and%2520will%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
 </iframe>
-
 
 <hr>
 
-<h3 class="cardvarient-title">Horizontal Card</h3>
-       
-        <p class="discription">Show cards view in landscape on large screens and normal card in smaller screens. Yes it is responsive card </p>
-    
-<div class="cardvarient-container" id="card-horizontalcard" >
-<div>
-    <img class="img"  id="horizontal-cardimg" src="/img/img2.jpg" alt="">
-    </div>
-    <div class="card-horizontalcard-contents">
-    
-    <div class="cardvarient-title horizontal">LAMPAN</div>
-    <div class="cardvarient-subtitle horizontal">Rs.549</div>
+<h3 class="cardvarient-titles">Cards With Dismiss
+</h3>
+   
+    <p class="discription">Close the shown card using dismiss option on it. Add functionality to the dimiss button on the card.</p>
 
-    <div class="icons horizontal-icons">
-        <i class="fa fa-heart icon"></i>
-        <i class="fa fa-share-alt icon"></i>
-        <i class="fa fa-ellipsis-v icon"></i>
-    </div>
-  </div>
+<div class="cardvarient-container" id="card-dismiss">
+
+<img class="img"  src="/img/img2.jpg" alt="">
+
+<div class="cardvarient-title">LAMPAN</div>
+<div class="cardvarient-subtitle">Rs.549
+
+</div>
+<div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
+
+<div class="icons">
+    <i class="fa fa-heart icon"></i>
+    <i class="fa fa-share-alt icon"></i>
+    <i class="fa fa-ellipsis-v icon"></i>
+</div>
+<span class="icon-dismiss">X</i></span>
+</div>
+
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-dismiss%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-dismiss%2522%253EX%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+<hr>
+
+<h3 class="cardvarient-titles">Cards with Text Overlay</h3>
+   
+    <p class="discription">Overlay the important text on the card to highlight it. </p>
+
+<div class="cardvarient-container" id= "card-overlay" >
+
+
+<img class="img overlay"  src="/img/img2.jpg" alt="">
+
+<div class="cardvarient-title overlay">LAMPAN</div>
+<div class="cardvarient-subtitle overlay">Rs.549
+
+</div>
+<div class="cardvarient-discription overlay"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
+
+<div class="icons overlay">
+    <i class="fa fa-heart icon"></i>
+    <i class="fa fa-share-alt icon"></i>
+    <i class="fa fa-ellipsis-v icon"></i>
+</div>
+
+<div class="overlay-text"> Out Of Stock</div>
+</div>
+
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-overlay%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520and%2520will%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%2520Out%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<hr>
+
+<h3 class="cardvarient-titles">Text only card.</h3>
+   
+<p class="discription">When we have only text that needs to be shown as card use below simple text only cards. </p>
+
+<div class="cardvarient-container" id="card-textonly" >
+
+<div class="cardvarient-title ">LAMPAN</div>
+<div class="cardvarient-subtitle ">Rs.549
+
+</div>
+
+<div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
+
+<div class="icons">
+    <i class="fa fa-heart icon"></i>
+    <i class="fa fa-share-alt icon"></i>
+    <i class="fa fa-ellipsis-v icon"></i>
+</div>
 
 </div>
 
 <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-horizontalcard%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-textonly%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520make%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+<hr>
+
+<h3 class="cardvarient-titles">Horizontal Card</h3>
+   
+    <p class="discription">Show cards view in landscape on large screens and normal card in smaller screens. Yes it is responsive card </p>
+
+<div class="cardvarient-container" id="card-horizontalcard" >
+<div>
+<img class="img"  id="horizontal-cardimg" src="/img/img2.jpg" alt="">
+</div>
+<div class="card-horizontalcard-contents">
+
+<div class="cardvarient-title horizontal">LAMPAN</div>
+<div class="cardvarient-subtitle horizontal">Rs.549</div>
+
+<div class="icons horizontal-icons">
+    <i class="fa fa-heart icon"></i>
+    <i class="fa fa-share-alt icon"></i>
+    <i class="fa fa-ellipsis-v icon"></i>
+</div>
+</div>
+
+</div>
+
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-horizontalcard%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+style="width: 100%; max-width:900px; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
 </iframe>
 
 <hr>
 
-<h3 class="cardvarient-title">Cards with Shadow
+<h3 class="cardvarient-titles">Cards with Shadow
 </h3>
-       
-        <p class="discription">Shadowing always gives 3D effect to an element</p>
+   
+    <p class="discription">Shadowing always gives 3D effect to an element</p>
 
-        <div class="cardvarient-container" id="card-shadow" >
+    <div class="cardvarient-container" id="card-shadow" >
 
-            <img class="img" src="/img/img2.jpg" alt="">
-            <div class="cardvarient-title">LAMPAN</div>
-            <div class="cardvarient-subtitle">Rs.549
+        <img class="img" src="/img/img2.jpg" alt="">
+        <div class="cardvarient-title">LAMPAN</div>
+        <div class="cardvarient-subtitle">Rs.549
 
-            </div>
-            <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
-
-            <div class="icons">
-                <i class="fa fa-heart icon"></i>
-                <i class="fa fa-share-alt icon"></i>
-                <i class="fa fa-ellipsis-v icon"></i>
-            </div>
         </div>
-        <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-shadow%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; max-width:900px;  height: 100px;  border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+        <div class="cardvarient-discription"> The distinct design is easy to place and will make any dark corner of your home warm and inviting.</div>
+
+        <div class="icons">
+            <i class="fa fa-heart icon"></i>
+            <i class="fa fa-share-alt icon"></i>
+            <i class="fa fa-ellipsis-v icon"></i>
+        </div>
+    </div>
+    <iframe
+src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-container%2520id%253D%2522card-shadow%2522%2520%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimg%252Fimg2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-title%2522%253ELAMPAN%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-subtitle%2522%253ERs.549%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardvarient-discription%2522%253E%2520The%2520distinct%2520design%2520is%2520easy%2520to%2520place%2520and%2520will%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520make%2520any%2520dark%2520corner%2520of%2520your%2520home%2520warm%2520and%2520inviting.%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+style="width: 100%; max-width:900px;  height: 100px;  border:0; transform: scale(1); overflow:hidden;"
+sandbox="allow-scripts allow-same-origin">
 </iframe>
 
- </div>
+
+    </div>
+
+  </div>
     
 </body>
 </html>

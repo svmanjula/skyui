@@ -8,110 +8,150 @@
     <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landingpage.css">
 </head>
 
 <body>
 
+  <header id="hero">
+    <div> <a id="header-title" href="/index.html">SKY-UI</a> </div>
+  
+    <div class="nav-contents">
+  
+    <div id="header-nav "><a id="header-nav-link" href="#">Docs</a></div>
+    <div class="github-icon"><i class="fab fa-github"></i>
+        </div>
+    </div>
+  
+       </header>
+
+  <div id="sidebar">
+
+      <a class="component-varient" href="/avatar/avatar.html">Avatar</a>
+      <a class="component-varient"  href="/alert/alert.html">Alert</a>
+  <a  class="component-varient" href="/buttons/buttons.html">Button</a>
+      <a class="component-varient" href="/badges/badges.html">Badge</a>
+      <a class="component-varient"  href="/card/card.html">Card</a>
+  
+      <a  class="component-varient"  href="/images/images.html">Image</a>
+      <a  class="component-varient"  href="/input/input.html">Input</a>
+  
+      
+  </div>
+
+    
+  <div id="main">
+            
+        
+    
     <div id="btn">
 
 
-    <h3 class="buttonvarientheader">Buttons</h3>
+   <h2 class="documentationcontentheader">Buttons</h2>
 
-    <p class="buttonvarientcontentpara">Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.</p>
+   <p class="documentationcontentpara">Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.</p>
+   <hr>
 
-    
-    <h3 class="buttonvarienttitle">Contained Buttons</h3>
-    <p class="buttonvarientcontentpara">
-        Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
-    </p>
+   
+   <h3 class="buttonvarienttitle">Contained Buttons</h3>
+   <p class="documentationcontentpara">
+       Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+   </p>
 
 
 
-    <div class="buttonvarientcontainer">
-       <button class="button button-default">DEFAULT</button>
-       <button class="button button-primary">PRIMARY</button>
-       <button class="button button-secondary">SECONDARY</button>
-       <button class="button button-error">ERROR</button>
-       <button class="button button-warning">WARNING</button>
-       <button class="button button-success">SUCCESS</button>
+   <div class="buttonvarientcontainer">
+      <button class="button button-default">DEFAULT</button>
+      <button class="button button-primary">PRIMARY</button>
+      <button class="button btn-secondary">SECONDARY</button>
+      <button class="button button-error">ERROR</button>
+      <button class="button button-warning">WARNING</button>
+      <button class="button button-success">SUCCESS</button>
+  </div>
+
+  <iframe
+ src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253ESECONDARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-error%2522%253EERROR%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-warning%2522%253EWARNING%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-success%2522%253ESUCCESS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+ style="width: 100%; height: 100%;  border:0; transform: scale(1); overflow:hidden;"
+ sandbox="allow-scripts allow-same-origin">
+</iframe>
+<hr>
+
+   <h3  class="buttonvarienttitle" >Outline Buttons</h3>
+
+   <div class="buttonvarientcontainer">
+
+       <button class="button outline-default">DEFAULT</button>
+      <button class="button outline-primary">PRIMARY</button>
+       <button class="button outline-error">Error</button>
+      <button class="button outline-warning">Warning</button>
+      <button class="button outline-success">Success</button>
+
    </div>
 
    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253ESECONDARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-error%2522%253EERROR%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-warning%2522%253EWARNING%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-success%2522%253ESUCCESS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%; max-width: 600px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+ src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520buttonvarientcontainer%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+ style="width: 100%; height: 100%; max-width: 900px; border:0; transform: scale(1); overflow:hidden;"
+ sandbox="allow-scripts allow-same-origin">
 </iframe>
+<hr>
+   
 
-    <h3 class="buttonvarienttitle">Outline Buttons</h3>
+   <h3 class="buttonvarienttitle" >Link Buttons</h3>
 
-    <div class=" buttonvarientcontainer">
+   <div class="buttonvarientcontainer ">
+   <button class=" button button-link">LINK</button>
+   </div>
 
-        <button class="button outline-default">DEFAULT</button>
-       <button class="button outline-primary">PRIMARY</button>
-        <button class="button outline-error">Error</button>
-       <button class="button outline-warning">Warning</button>
-       <button class="button outline-success">Success</button>
-
-    </div>
-
-    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520buttonvarientcontainer%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-default%2522%253EDEFAULT%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%; max-width: 600px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+   <iframe
+ src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520button%2520button-link%2522%253ELINK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+ style="width: 100%; height: 100%; max-width: 900px; border:0; transform: scale(1); overflow:hidden;"
+ sandbox="allow-scripts allow-same-origin">
 </iframe>
-    
+<hr>
 
-    <h3 class="buttonvarienttitile">Link Buttons</h3>
 
-    <div class="buttonvarientcontainer ">
-    <button class=" button button-link">LINK</button>
-    </div>
 
-    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520button%2520button-link%2522%253ELINK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%; max-width: 600px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+   <h3 class="buttonvarienttitle">Icon Buttons</h3>
+
+   <div class="buttonvarientcontainer">
+
+       <button class="button button-icon"><i class="fas fa-search fa-lg "></i>
+       </button>            
+       <button class="button button-icon"><i class="far fa-address-book fa-lg"></i>
+      </button>   
+      <button class="button button-icon"><i class="far fa-moon"></i></button> 
+      <button class="button button-icon"><i class="fas fa-sun"></i></button> 
+      <button class="button button-icon"><i class="fas fa-address-card"></i></button>
+       
+   </div>
+   
+
+
+   <iframe
+ src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2520fa-lg%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-address-book%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-moon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-sun%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-address-card%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+ style="width: 100%; height: 100%; max-width: 900px; border:0; transform: scale(1); overflow:hidden;"
+ sandbox="allow-scripts allow-same-origin">
 </iframe>
+<hr>
 
+   
 
+   <h3 class="buttonvarienttitle">Floating Buttons</h3>
 
-    <h3 class="buttonvarienttitle">Icon Buttons</h3>
+   <div class="buttonvarientcontainer ">
 
-    <div class="buttonvarientcontainer">
-
-        <button class="button button-icon"><i class="fas fa-search fa-lg "></i>
-        </button>            
-        <button class="button button-icon"><i class="far fa-address-book fa-lg"></i>
-       </button>   
-       <button class="button button-icon"><i class="far fa-moon"></i></button> 
-       <button class="button button-icon"><i class="fas fa-sun"></i></button> 
-       <button class="button button-icon"><i class="fas fa-address-card"></i></button>
-        
-    </div>
-
-
-    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2520fa-lg%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-address-book%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-moon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-sun%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-address-card%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%; max-width: 600px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-    
-
-    <h3 class="buttonvarienttitle">Floating Buttons</h3>
-
-    <div class="buttonvarientcontainer ">
-
-    <button class="  button button-icon button-floating"><i class="fas fa-chevron-up"></i> </button>
+   <button class="  button button-icon button-floating"><i class="fas fa-chevron-up"></i> </button>
 </div>
 
 <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2520%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520%2520button%2520button-icon%2520button-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-chevron-up%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 100%; height: 100%; max-width: 600px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
+ src="https://carbon.now.sh/embed?bg=rgba%28242%2C242%2C247%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttonvarientcontainer%2520%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520%2520button%2520button-icon%2520button-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-chevron-up%2522%253E%253C%252Fi%253E%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+ style="width: 100%; height: 100%; max-width: 900px; border:0; transform: scale(1); overflow:hidden;"
+ sandbox="allow-scripts allow-same-origin">
 </iframe>
+<hr>
 
-</div>
+    </div>
 
     
 </body>

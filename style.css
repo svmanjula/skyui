@@ -7,15 +7,15 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    box-shadow: 0 4px 4px 0 var(--primary-color);
+    box-shadow: 0 4px 4px 0 var(--shadow-color-);
     position: fixed;
-    padding: 2rem;;
-    
+    padding:4rem 0 2rem 0;    
 }
 
 
 .component-varient{
    color: black;
+   padding: 0.5rem 4rem;   
     text-decoration: none;
     font-weight: bolder;
     font-size: larger; 
@@ -23,6 +23,8 @@
 
 .component-varient:hover{
 color: var(--primary-color);
+background-color: var(--primary-color);
+color: var(--off-white-);
 
 }
 
@@ -51,20 +53,18 @@ color: var(--primary-color);
 
 
 #hero{
-    position:absolute;
-    z-index:99;
-    width: 100vw;
+    position:fixed;
+    z-index: 99;
+    background-color: var(--off-white-);
 
 }
 
-#documentcontent{
-    padding: 5rem 0 5rem 15rem;
+#main{
+    padding: 8rem 0 5rem 15rem;
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* position: relative; */
-    /* right:-5rem; */
+    
 
 }
 

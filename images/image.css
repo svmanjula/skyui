@@ -3,7 +3,7 @@
 .imgvarient1{
     height: auto;
     width: 80%;
-    max-width: 600px;
+    max-width:400px;
 }
 
 .imgvarient2{
@@ -20,5 +20,8 @@
     margin: 1rem ;
 }
 .cardvarient-header{
+    color: var(--primary-color);
+}
+.cardvarient-titles{
     color: var(--primary-color);
 }

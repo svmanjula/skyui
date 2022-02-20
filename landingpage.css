@@ -3,14 +3,13 @@
 
 
 header{
-    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: space-between;
-    color: var(--off-white-);
     width: 100vw;
-    height:10vh;
+    height:12vh;
+    box-shadow: 0 4px 2px 0 var(--shadow-color-);
  
 }
 
@@ -36,7 +35,9 @@ header{
 .primary-btn{
     background-color: var(--primary-color);
     height: 2rem;
+    width: 6rem;
     color:var(--off-white-);
+    border: 0;
 
     
 }
@@ -77,20 +78,20 @@ header{
 
 footer{
     display: flex;
-    background-color: var(--primary-color);
-    /* height: 75px; */
     align-items: center;
-    padding:1rem;
+    padding:1.5rem;
     justify-content: center;
     gap: 1rem;
-    
+    position: fixed;
+    bottom: 0;
     width:100vw;
-    color: var(--off-white-);
+    box-shadow: 4px 0 4px 0;
+    
 
 }
 
 #header-title{
-    color: white;
+    color:var(--primary-color);
     font-size: 1.2rem;
     text-decoration: none;
     margin-left: 1rem;
