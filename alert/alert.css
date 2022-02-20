@@ -9,6 +9,8 @@
     font-size:xx-small;
     width:80vw;
     padding:0.5rem;
+    max-width: 250px;
+
     color: var(--off-white-);
     background-color: var(--off-white-);
 

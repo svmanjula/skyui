@@ -9,7 +9,7 @@
     height: 100vh;
     box-shadow: 0 4px 4px 0 var(--primary-color);
     position: fixed;
-    padding: 2rem;
+    padding: 2rem;;
     
 }
 
@@ -70,12 +70,9 @@ color: var(--primary-color);
 
 #componentsfooter{
     width: 100vw;
-    position: absolute;
-    margin: 1rem 0;
     
+
 }
-
-
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -95,7 +92,6 @@ color: var(--primary-color);
         
     }
 }
-
 
 
 
