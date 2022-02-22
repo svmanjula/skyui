@@ -1,0 +1,28 @@
+@import url(/components.css);
+
+.heading{
+    color: var(--primary-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    
+}
+
+.discription-contribute{
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
+
+.discription-contribute:hover{
+    transition: 0.3s;
+    font-size: 1rem;
+    transform: translate(10px);
+}
+
+.discription{
+    font-size: 1rem;
+}

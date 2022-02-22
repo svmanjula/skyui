@@ -8,14 +8,16 @@
     --dnd-color:rgb(235, 226, 226);
     --default-color: rgb(3, 3, 58);
     --shadow-color-:rgb(219, 217, 217);
-
-    
-    
+    --black:black;  
     
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+a{
+    text-decoration: none;
+    color: var(--black);
+}
 
 * {
     font-family: 'Montserrat', sans-serif;

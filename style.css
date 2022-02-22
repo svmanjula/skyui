@@ -9,7 +9,7 @@
     height: 100vh;
     box-shadow: 0 4px 4px 0 var(--shadow-color-);
     position: fixed;
-    padding:4rem 0 2rem 0;    
+    padding:7rem 0 2rem 0;    
 }
 
 
@@ -18,13 +18,23 @@
    padding: 0.5rem 4rem;   
     text-decoration: none;
     font-weight: bolder;
-    font-size: larger; 
+    font-size:0.9rem; 
 }
 
 .component-varient:hover{
 color: var(--primary-color);
 background-color: var(--primary-color);
 color: var(--off-white-);
+
+}
+
+.title{
+    color: black;
+    padding: 0.5rem 4rem;   
+     text-decoration: none;
+     font-weight: bolder;
+     font-size: larger; 
+     color: var(--primary-color);
 
 }
 
@@ -60,11 +70,12 @@ color: var(--off-white-);
 }
 
 #main{
-    padding: 8rem 0 5rem 15rem;
+    padding: 8rem 0 5rem 16rem;
     /* position: relative; */
     display: flex;
     flex-direction: column;
     width: 80%;
+    justify-content: center;
     
 
 }
