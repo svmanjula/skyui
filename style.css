@@ -3,11 +3,11 @@
 @import url(alert/alert.css);
 @import url(avatar/avatar.css);
 @import url(badges/badges.css);
-@import url(buttons/buttons.css);
 @import url(images/image.css);
-@import url(input/input.css);
 @import url(typography/typography.css);
-
+@import url(/img);
+@import url(input/input.css);
+@import url(buttons/buttons.css);
 
 #sidebar{
     display: flex;
